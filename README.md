@@ -121,6 +121,10 @@ Each time you submit a prompt to GitHub Copilot CLI, your monthly quota of premi
 
 For more information about how to use the GitHub Copilot CLI, see [our official documentation](https://docs.github.com/copilot/concepts/agents/about-copilot-cli).
 
+## 📖 Additional Resources
+
+- [GL-AR150 Travel Router Guide](GL-AR150-GUIDE.md) - Comprehensive guide for setting up and using the GL-AR150 travel router with secure networking features
+
 ## 📢 Feedback and Participation
 
 We're excited to have you join us early in the Copilot CLI journey.
