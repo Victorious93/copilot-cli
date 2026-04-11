@@ -127,6 +127,8 @@ GitHub Copilot CLI supports plugins that extend its capabilities with new slash 
 
 ### Installing a Plugin
 
+Run with a plugin name to install directly:
+
 ```bash
 copilot plugin install <name>@<registry>
 ```
@@ -135,6 +137,12 @@ For example, to install the `superpowers` plugin from the official registry:
 
 ```bash
 copilot plugin install superpowers@claude-plugins-official
+```
+
+Run without arguments to open an interactive picker that browses available plugins from all configured registries:
+
+```bash
+copilot plugin install
 ```
 
 ### Managing Plugins
