@@ -1,0 +1,34 @@
+{
+  "name": "superpowers",
+  "version": "1.0.0",
+  "registry": "claude-plugins-official",
+  "description": "Supercharge your Copilot CLI with enhanced code intelligence, performance profiling, dependency analysis, and one-command project scaffolding.",
+  "author": "Anthropic",
+  "license": "MIT",
+  "minCliVersion": "0.0.378",
+  "agent": "superpowers.agent.md",
+  "slashCommands": [
+    {
+      "name": "scaffold",
+      "description": "Scaffold a new project from a template (e.g. /scaffold react-app my-project)"
+    },
+    {
+      "name": "profile",
+      "description": "Profile runtime performance of a file or command and summarise hotspots"
+    },
+    {
+      "name": "deps",
+      "description": "Analyse and visualise your project's dependency graph"
+    },
+    {
+      "name": "audit",
+      "description": "Run a security and quality audit across the current repository"
+    }
+  ],
+  "tools": [
+    "scaffold_project",
+    "profile_runtime",
+    "analyse_dependencies",
+    "security_audit"
+  ]
+}
