@@ -6,6 +6,7 @@
 - Installed plugins are stored in `~/.copilot/plugins/` and loaded automatically on startup
 - Add `plugin list` to show installed plugins, `plugin remove` to uninstall, and `plugin update` to upgrade to the latest version
 - Running `copilot plugin install` without arguments opens an interactive picker to browse and install plugins from all configured registries
+- Ship `superpowers` plugin (`copilot plugin install superpowers@claude-plugins-official`): adds `/scaffold`, `/profile`, `/deps`, and `/audit` slash commands for project scaffolding, runtime profiling, dependency analysis, and security auditing
 
 ## 0.0.377 - 2026-01-08
 
