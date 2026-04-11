@@ -121,6 +121,38 @@ Each time you submit a prompt to GitHub Copilot CLI, your monthly quota of premi
 
 For more information about how to use the GitHub Copilot CLI, see [our official documentation](https://docs.github.com/copilot/concepts/agents/about-copilot-cli).
 
+## 🔌 Plugins
+
+GitHub Copilot CLI supports plugins that extend its capabilities with new slash commands, tools, and integrations.
+
+### Installing a Plugin
+
+```bash
+copilot plugin install <name>@<registry>
+```
+
+For example, to install the `superpowers` plugin from the official registry:
+
+```bash
+copilot plugin install superpowers@claude-plugins-official
+```
+
+### Managing Plugins
+
+| Command | Description |
+|---------|-------------|
+| `copilot plugin install <name>@<registry>` | Install a plugin |
+| `copilot plugin list` | List installed plugins |
+| `copilot plugin update <name>` | Update a plugin to the latest version |
+| `copilot plugin remove <name>` | Uninstall a plugin |
+
+### Plugin Registries
+
+- **`claude-plugins-official`** — The official Anthropic-curated plugin registry
+- **Custom registries** — Configure additional sources in `~/.copilot/plugins.json`
+
+Installed plugins are stored in `~/.copilot/plugins/` and loaded automatically each time the CLI starts.
+
 ## 📢 Feedback and Participation
 
 We're excited to have you join us early in the Copilot CLI journey.

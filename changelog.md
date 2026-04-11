@@ -1,3 +1,11 @@
+## 0.0.378 - 2026-04-11
+
+- Add `plugin install` command to install plugins from registries (e.g. `copilot plugin install superpowers@claude-plugins-official`)
+- Plugins extend the CLI with new slash commands, tools, and capabilities
+- Plugin registry sources can be official (`claude-plugins-official`) or custom registries configured in `~/.copilot/plugins.json`
+- Installed plugins are stored in `~/.copilot/plugins/` and loaded automatically on startup
+- Add `plugin list` to show installed plugins, `plugin remove` to uninstall, and `plugin update` to upgrade to the latest version
+
 ## 0.0.377 - 2026-01-08
 
 - Large file messages now encourage incremental reading with view_range instead of discouraging all reading
